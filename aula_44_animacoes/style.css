@@ -1,0 +1,91 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    /*background: linear-gradient(to bottom right, red, orange, yellow);*/
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    
+}
+
+#div-1{
+    /*animation-name: escorregar;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    /*animation-iteration-count: 3;*/
+    /*animation-fill-mode: forwards;
+      animation-delay: 5s;
+    */
+  
+
+    animation: escorregar 2s linear alternate infinite,
+    descer 2.5s linear alternate infinite,
+    colorir 2s linear alternate infinite;
+}
+
+@keyframes escorregar {
+    from{
+        left: 0px;
+        background-color: red;
+        transform: rotate(0deg);
+    }
+
+    to{
+        left: 300px;
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes descer{
+
+    from{
+        top: 0px;
+    }
+
+    to{
+        top:300px;
+    }
+}
+
+@keyframes colorir{
+    0%{
+        background-color: red;
+        border-width: 1px;
+    }
+
+    25%{
+        background-color: orange;
+    }
+
+    50%{
+        background-color: yellow;
+        border-width: 50px;
+    }
+
+    75%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: red;
+        border-width: 1px;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+h1, h3{
+    text-align: center;
+    color:indianred;
+}
+
+body > div{
+    border: 2px solid black;
+    background-color:indianred;
+    text-align: justify;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    margin: 40px auto;
+}
+
+.filho{
+    background-color:burlywood;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.div-1 .filho{
+    display: block;
+}
+
+.div-2 .filho{
+    display: inline;
+}
+
+.div-3 .filho{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.div-4 .filho{
+    display: none;
+}
+
+
+

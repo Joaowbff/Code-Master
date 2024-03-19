@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+    text-align: center;
+}
+
+/*@media all and (500px < width <= 800px){*/
+@media all and (width <= 800px){
+
+    body{
+        background-color: red;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}
+
+@media all and (width <= 500px){
+
+    body{
+        background-color: green;
+    }
+
+}
