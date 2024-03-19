@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    color:rgb(79, 78, 78);
+}
+
+#apps{
+    width:25px;
+    height:25px ;
+}
+
+#user{
+    width:40px ;
+    height:40px ;
+    margin-right: 10px;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 172px;
+    gap:20px;
+}
+
+#navegacao{
+    border: 2px solid rgba(220, 220, 220, 0.521);
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+
+}
+
+#navegacao-2{
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#navegacao-3{
+    display: flex;
+    margin-left: 495px;
+    gap: 7px;
+}
+#lupa{
+    width:18px;
+    height:18px;
+    margin-left: 5px;
+}
+#microfone{
+    display: flex;
+    justify-content: flex-end;
+}
+#teclado{
+   
+}
+
+#microfone, #teclado{
+    display: flex;
+
+}
+
+aside{
+    display: flex;
+    gap:15px;
+
+}
+
+aside> div{
+    background-color:rgba(220, 220, 220, 0.192);
+}
+
+.pr-aside{
+    padding: 10px;
+    color:rgb(79, 78, 78);
+}
+
+#p1-footer{
+    padding: 10px;
+}
+
+footer{
+    color:rgb(106, 106, 106);
+    background-color:rgba(220, 220, 220, 0.653);
+    font-size: 18px;
+}
+#folha{
+    width: 15px;
+    height: 15px;
+}
+#carbono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+#div-1, #div-2{
+    display: flex;
+    gap: 20px;
+}
+#div-2{
+    margin-left: 65px;
+}
+#last-div:nth-child(5){
+    margin-left: 20px;
+}
