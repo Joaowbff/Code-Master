@@ -1,0 +1,18 @@
+h1, h3{
+    text-align: center;
+}
+
+.verde{
+    background-color: aquamarine;
+    
+}
+
+.two{
+    background-color: blueviolet;
+    border: 5px solid red;
+}
+.three{
+    background-color: rgb(245, 135, 95);
+    border: 5px dotted aquamarine;
+    border-radius: 10px;
+}

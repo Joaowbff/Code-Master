@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo da tag
+        <code>&lt;picture&gt;</code>
+    </h1>
+
+
+    <hr>
+
+    <h3>Exemplo de "picture" para 3e ecrãs diferentes (até 500px) (até 900px) e (maiores que 900px)</h3>
+
+    <picture>
+        <source srcset="fruta-1.png" width="350" media="(max-width: 500px)">
+        <source srcset="fruta-2.png" width="500" media="(max-width: 900px)">
+        <img src="fruta-3.png" alt="fruta-3" type="image.png" width="900px">
+    </picture>
+</body>
+</html>

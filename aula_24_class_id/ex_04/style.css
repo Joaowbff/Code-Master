@@ -1,0 +1,35 @@
+ol{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:165px
+    
+    
+}
+
+.direita{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:yellow;
+    text-align: right;
+    width: 150px;
+    margin: 5px;
+   
+}
+
+.esquerda{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#00d700;
+    width: 150px;
+    margin: 5px;
+   
+}
+
+#centro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#00d700;
+    text-align: center;
+    border: 5px solid red;
+    font-size: 25px;
+    width: 145px;
+    margin: 5px;
+
+}

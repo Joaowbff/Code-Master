@@ -1,0 +1,20 @@
+div{
+    font-family:cursive;
+}
+
+.primeiradiv{
+    background-color: aquamarine;
+    
+}
+
+.segundadiv{
+    background-color: rebeccapurple;
+    color: violet;
+    text-align: center;
+
+}
+
+.terceiradiv{
+    background-color: coral;
+    text-align: right;
+}

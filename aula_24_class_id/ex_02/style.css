@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bgyellow{
+    color: blue;
+    font-size: 10px;
+    border: 5px dotted red;
+    background-color: yellow;
+}
+
+.bgred{
+    color:white;
+    font-size: 20px;
+    border: 5px dotted yellow;
+    background-color: red;
+}
+
+#especial{
+    color: yellow;
+    background-color: blue;
+    border: 5px solid greenyellow;
+    border-radius: 20px  0px;
+    text-align: center;
+
+
+}
