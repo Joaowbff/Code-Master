@@ -1,0 +1,45 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body> div{
+    background-color: brown;
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+div *{
+    background-color: bisque;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+
+#pai-1 > .filho-1:hover ~.filho-3{
+    background-color: burlywood;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    color: cadetblue;
+}
+
+#pai-1 > .filho-2:hover ~.filho-4{
+    background-color: burlywood;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    color: cadetblue;
+}
+
+#pai-2 > .filho-5:hover ~.filho-1{
+    background-color: burlywood;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+}
+
+#pai-3 > .filho:hover ~.filho{
+    background-color: burlywood;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    color: cadetblue;
+}

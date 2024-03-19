@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    background-image: url("img/pexels-photo-290141.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-1{
+    filter: brightness(200%);
+}
+
+.div-2{
+    filter: brightness(50%);
+}
+
+.div-3{
+    filter: blur(3px);
+}
+
+.div-4{
+    filter: grayscale(50%);
+}
+
+.div-5{
+    filter: grayscale(0%);
+}
+
+.div-6{
+    filter:contrast(200%);
+}
+
+.div-7{
+    filter: contrast(25%);
+}
+
+.div-8{
+    filter: drop-shadow(10px 10px 5px red);
+}
+
+.div-9{
+    filter: invert(100%);
+}
+
+.div-10{
+    filter: saturate(20%);
+}
+
+.div-11{
+    filter: saturate(400%);
+}
+
+.div-12{
+    filter: sepia(75%);
+}
+
+.div-13{
+    filter: blur(3px) brightness(50%) invert(100%) ;
+}

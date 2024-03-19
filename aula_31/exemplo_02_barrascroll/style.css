@@ -1,0 +1,44 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div{
+    border: 3px solid black;
+    text-align: justify;
+    padding: 10px;
+}
+
+.div-1{
+    background-color: red;
+    width: 600px;
+}
+
+.div-2{
+    background-color: green;
+    width: 25%;
+    height: 50vw;
+    min-width: 200px;
+    max-width: 375px;
+    
+    min-height: 260px;
+    max-height: 455px;
+
+}
+
+.div-3{
+    background-color: aquamarine;
+    width: 275px;
+    height: 275px;
+    text-align: center;
+    overflow: auto;
+
+}
+
+img{
+    width: 80px;
+}
+
+.arco-2{
+
+}

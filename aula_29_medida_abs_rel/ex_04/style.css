@@ -1,0 +1,40 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p1{
+    font-size: 2em;
+}
+
+.p2{
+    color: blue;
+    font-size: 5ex;
+}
+
+.p3{
+    color: rgba(255, 0, 0, 50%);
+    font-size: 5ch;
+    
+}
+.p4{
+    color:green;
+    font-size: 1rem;
+}
+.p5{
+    color: gray;
+    font-size: 2.5vw;
+}
+.p6{
+    color: rgba(232, 115, 197, 40%);
+    font-size: 2.5vh;
+}
+
+.p7{
+    color: rgb(209, 122, 30);
+    font-size: 3vmin;
+}
+
+.p8{
+    color: rgb(89, 7, 90);
+    font-size: 3vmax;
+}

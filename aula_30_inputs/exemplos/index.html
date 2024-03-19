@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+
+    <br><br>
+
+    <label for="morada">Morada:</label>
+    <input type="text" id="morada" placeholder="Lisboa,Portugal">
+    
+    <br><br>
+
+    <label for="apelido">Apelido</label>
+    <input type="text" id="apelido" value="Texto fixo">
+
+    <br><br>
+    
+    <label for="extra">Extra</label>
+    <input type="text" id="extra" value="Queijo" disabled>
+
+    <label for="extra-2">Extra 2</label>
+    <input type="text" id="extra-2" value="Cola" readonly>
+
+    <br><br>
+
+    <label for="vulgo">Vulgo</label>
+    <input type="text" id="vulgo"  minlength="5" maxlength="10">
+
+    <br><br>
+
+    <label for="mensagem-1">Mensagem 1</label>
+    <input type="text" id="mensagem-1" required>
+
+    <br><br><hr>
+
+    <label for="Idade">Idade</label>
+    <input type="number" id="idade">
+
+    <br><br>
+
+    <label for="numero-1">Número 1:</label>
+    <input type="number" id="numero-1" step="10">
+
+    <br><br>
+
+    <label for="numero-2">Número 2:</label>
+    <input type="number" id="numero-2" step="any">
+
+    <br><br>
+
+    <label for="numero-3">Número 3:</label>
+    <input type="number" id="numero-3" min="0" max="9">
+
+    <br><br><hr><br>
+
+     <label for="email">E-mail:</label>
+    <input type="email" id="email">
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha">
+
+    <label for="link">Link:</label>
+    <input type="url" id="link">
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" pattern="[0-9] {3}">
+
+    <br><br><hr><br>
+
+    <label for="foto">Fotos</label>
+    <input type="file" id="foto">
+
+    <br><br><hr><br>
+    
+    <label for="volume">Volume</label>
+    <input type="range" id="volume" min="0" max="100" value="100">
+
+    <br><br>
+
+    <label for="range-1">Volume</label>
+    <input type="range" id="range-1" min="1" max="2" step="0.1">
+
+    <br><br>
+    
+    <label for="range-1">Volume</label>
+    <input type="range" id="range-1" min="0" max="100" value="50">
+
+    
+    <br><br><hr><br>
+
+     <label for="checkbox-1">Checkbox 1:</label>
+    <input type="checkbox" id="checkbox-1">
+    <br>
+
+    <label for="checkbox-2">Checkbox 1:</label>
+    <input type="checkbox" id="checkbox-2">
+    <br>
+
+    <label for="checkbox-3">Checkbox 1:</label>
+    <input type="checkbox" id="checkbox-3">
+    <br><br><hr><br>
+
+    <label for="radio-1">Rádio-1</label>
+    <input type="radio" id="radio-1" name="pergunta-1">
+    <br>
+
+    <label for="radio-1">Rádio-1</label>
+    <input type="radio" id="radio-2" name="pergunta-2">
+    <br>
+
+    <label for="radio-1">Rádio-1</label>
+    <input type="radio" id="radio-3" name="pergunta-3">
+    <br><br><hr><br>
+
+    <label for="cor-1">Cor 1</label>
+    <input type="color" id="cor-1">
+    <br>
+
+    <label for="cor-2">Cor 2</label>
+    <input type="color" id="cor-2" value="#ffff00">
+    <br><br><hr><br>
+
+    <label for="data-1">Data 1</label>
+    <input type="date" id="data-1"> 
+    <br>
+
+    <label for="data-2">Data 2</label>
+    <input type="date" id="data-2" min="2024-01-01" max="2024-01-31">  
+    <br>
+
+    <label for="data-3">Data 3</label>
+    <input type="date" id="data-3" value="1999-10-15"> 
+
+    <label for="data-4">Data 4</label>
+    <input type="date" id="data-4" value="2024-01-01" step="4"> 
+    <br><br><hr><br>
+
+    <label for="mes-1">Mes 1</label>
+    <input type="month" id="mes-1">
+    <br>
+
+    <label for="mes-2">Mes 2</label>
+    <input type="month" id="mes-2" min="2023-01" max="2023-12">
+    <br>
+
+    <label for="mes-3">Mes 3</label>
+    <input type="month" id="mes-3" min="2023-01" max="2023-12">
+
+    <label for="mes-4">Mes 4</label>
+    <input type="month" id="mes-4" value="2005-01" step="2">
+    <br><br><hr><br>
+
+    <label for="tempo-1">Tempo</label>
+    <input type="time" id="tempo-1">
+    <br>
+    <label for="tempo-2">Tempo</label>
+    <input type="time" id="tempo-2" min="10:00" max="13:00">
+    <br>
+    <label for="tempo-3">Tempo</label>
+    <input type="time" id="tempo-3" value="15:15">
+    <br>
+    <label for="tempo-4">Tempo</label>
+    <input type="time" id="tempo-4" step="1"> /*step para tempo sempre configurado em segundos*/
+    <br><br><hr><br>
+
+    <label for="tempo-completo-1">Tempo Completa 1:</label>
+    <input type="datetime-local" id="tempo-completo-1">
+    <br>
+
+    <label for="tempo-completo-1">Tempo Completa 2:</label>
+    <input type="datetime-local" id="tempo-completo-2" step="1">
+    <br>
+
+    <label for="tempo-completo-3">Tempo Completa 3:</label>
+    <input type="datetime-local" id="tempo-completo-3" step="1" value="2045-12-25 13:34:04">
+    <br>
+
+    <label for="tempo-completo-4">Tempo Completa 4:</label>
+    <input type="datetime-local" id="tempo-completo-4" step="1" min="2005-01-01 00:00:00" max="2005-01-15 03:15:00">
+    <br><br><hr><br>
+
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar formulário">
+
+
+    </form>
+    
+
+    
+
+
+
+
+</body>
+</html>

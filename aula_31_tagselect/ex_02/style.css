@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ca924dc5;
+    color: white;
+  
+}
+
+body{
+    background-color:blanchedalmond;
+     text-align: center;
+}
+
+
+button{
+    margin: 10px;
+    background-color: rgba(222, 184, 135, 0.349);
+
+}
+
+.btt-red, .btt-green, .btt-blue{
+    color: white;
+    border: 3px dashed black;
+    border-radius: 15px;
+    width: 80px;
+    height: 40px;
+}
+
+
+.btt-red{
+    background: rgba(255, 0, 0, 70%);
+    
+    
+}
+
+.btt-green{
+    background: rgba(0, 128, 0, 70%);
+    
+    
+}
+
+.btt-blue{
+    background: rgba(0, 0, 255, 70%);
+    
+}
+
+.default{
+    cursor: default;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.wait{
+    cursor:wait;
+}
+
+.grab{
+    cursor:grab;
+}
+
+.grabbing{
+    cursor:grabbing;
+}
+
+.crosshair{
+    cursor:crosshair;
+}
+
+.zoom-in{
+    cursor:zoom-in;
+}
+
+.zoom-out{
+    cursor:zoom-out;
+}
+
+.all-scroll{
+    cursor:all-scroll;
+}
+
+.cell{
+    cursor:cell;
+}
+
+.copy{
+    cursor:copy;
+}
+
+.help{
+    cursor:help;
+}
+
+.progress{
+    cursor:progress;
+}

@@ -1,0 +1,13 @@
+
+
+#texto-5{
+    resize:horizontal;
+}
+
+#texto-6{
+    resize:vertical;
+}
+
+#texto-7{
+    resize: none;
+}
